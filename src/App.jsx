@@ -43,11 +43,11 @@ function App() {
   const Sidebar = () => (
     <div className="w-64 bg-slate-900 text-white p-4 h-screen fixed left-0 top-0 z-10">
       <div className="mb-8">
-        <h1 className="text-xl font-bold">Stock Management MVP</h1>
+        <h1 className="text-xl font-bold">Stock Management MVP aula</h1>
       </div>
       <nav className="space-y-2">
         {[
-          { id: 'dashboard', icon: Home, label: 'Dashboard' },
+          { id: 'dashboard', icon: Home, label: 'Dashboard_1' },
           { id: 'inventory', icon: Package, label: 'Estoque' },
           { id: 'suppliers', icon: Users, label: 'Fornecedores' },
           { id: 'purchasing', icon: ShoppingCart, label: 'Compras' },
